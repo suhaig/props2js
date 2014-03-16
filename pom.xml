@@ -6,7 +6,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:suhaig/props2js.git</connection>
 		<developerConnection>scm:git:git@github.com:suhaig/props2js.git</developerConnection>
-		<url>scm:git:git@github.com:suhaig/props2js.git</url>
+		<url>git@github.com:suhaig/props2js.git</url>
 	</scm>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
