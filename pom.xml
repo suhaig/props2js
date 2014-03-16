@@ -2,12 +2,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.nczonline.web</groupId>
 	<artifactId>props2js</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:git@github.com:suhaig/props2js.git</connection>
 		<developerConnection>scm:git:git@github.com:suhaig/props2js.git</developerConnection>
-		<url>git@github.com:suhaig/props2js.git</url>
-	</scm>
+		<url>scm:git:git@github.com:suhaig/props2js.git</url>
+	  <tag>HEAD</tag>
+  </scm>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<testSourceDirectory>tests</testSourceDirectory>
