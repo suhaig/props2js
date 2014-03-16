@@ -55,4 +55,10 @@ public class PropertyConverterTest {
         String result = PropertyConverter.convertToJavaScript(properties, "foo.bar");
         assertEquals("foo.bar=" + resultJson + ";", result);
     }
+    
+    @Test
+    public void testConvertToPodsModule() {
+    	String result = PropertyConverter.convertToPodsModule(properties, "testModule");
+    	assertEquals("Pod.declare('testModule', "+resultJson+");", result);
+    }
 }

@@ -124,6 +124,8 @@ public class Props2Js {
                 result = PropertyConverter.convertToJavaScript(properties, name);
             } else if (outputType.equalsIgnoreCase("jsonp")){
                 result = PropertyConverter.convertToJsonP(properties, name);
+            } else if (outputType.equalsIgnoreCase("pods")) {
+            	result = PropertyConverter.convertToPodsModule(properties, name);
             } else {
                 result = PropertyConverter.convertToJson(properties);
             }

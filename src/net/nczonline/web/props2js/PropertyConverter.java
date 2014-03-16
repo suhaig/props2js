@@ -86,4 +86,7 @@ public class PropertyConverter {
         return result;
     }
 
+    public static String convertToPodsModule(Properties properties, String moduleName) {
+    	return "Pod.declare('"+moduleName+"', "+convertToJson(properties)+");";
+    }
 }
