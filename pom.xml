@@ -32,7 +32,7 @@
 		</developer>
 	</developers>
 	<properties>
-		<arguments></arguments>
+		<arguments />
 	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
